@@ -11,9 +11,9 @@ from urllib import parse
 
 class SynJson(object):
     username_password = {
-        "name": "蒋少杰",
-        "username": "shaojie.jiang",
-        "password": "101edaLK158@"
+        "name": "***",
+        "username": "******",
+        "password": "******"
     }
     header = {
         'authority': 'alpha.talkinggenie.com',

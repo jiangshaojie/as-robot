@@ -17,14 +17,6 @@ import requests
 """
 
 
-def rundata():
-    updatePeakConfig(isPeakTime=False)  # 关闭高峰策略  注意 smart-robot-config 版本
-    case = "sf_quanchangjing.xlsx"
-    sheetnames = ["查单", "通用流程", "拒收", "催单", "ivr", "转人工组别", "开发票", "修改收方信息", "退回", "特殊查单", "快件损坏", "下单", "查询网点", "价格咨询",
-                  "asr回拨", "取消下单", "投诉"]
-    run_data(case, sheetnames=sheetnames, check_topic_type="servicetype")
-
-
 def run():
     """
     transernum_servicetype 检查transernum_servicetype
