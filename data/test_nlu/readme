@@ -1,0 +1,63 @@
+{
+    "result": {
+        "intentList": [
+            {
+                "slotList": [],
+                "confidence": 0.5,
+                "scope": "PRO",
+                "name": "模糊发票",
+                "start": 2,
+                "end": 3,
+                "from": "nluEngine",
+                "id": "NLU.ITN.PRO.914009574.1007567",
+                "type": "rule"
+            }
+        ]
+    },
+    "code": "200",
+    "replyStatus": "成功",
+    "message": "成功"
+}
+
+{
+    "result": {
+        "intentList": [
+            {
+                "slotList": [
+                    {
+                        "name": "EX_手机号码_电话",
+                        "start": 0,
+                        "end": 0,
+                        "type": "rule",
+                        "value": "15810232906"
+                    },
+                    {
+                        "name": "用户类型",
+                        "start": 0,
+                        "end": 0,
+                        "type": "rule",
+                        "value": "寄件人"
+                    }
+                ],
+                "confidence": 1.0,
+                "name": "用户电话",
+                "start": 0,
+                "end": 0,
+                "from": "aiexreminder",
+                "type": "rule"
+            },
+            {
+                "slotList": [],
+                "confidence": 1.0,
+                "name": "询问寄件人电话",
+                "start": 0,
+                "end": 0,
+                "from": "greeting",
+                "type": "model"
+            }
+        ]
+    },
+    "code": "200",
+    "replyStatus": "成功",
+    "message": "成功"
+}

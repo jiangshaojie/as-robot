@@ -1,0 +1,66 @@
+filenames:
+  - file: "debang.xlsx"
+    env: "beta"
+    run: True
+    sheetnames:
+      - "debang"
+      - "aidate"
+      - "aitofull"
+      - "aiexreminder"
+      - "pro意图"
+      - "greeting"
+      - "aideppon"
+  - file: "ytoqcj.xlsx"
+    env: "beta"
+    run: True
+    sheetnames:
+      - "yto"
+  - file: "sf_quanchangjing_nlu.xlsx"
+    env: "alpha"
+    run: True
+    sheetnames:
+      - "shunfengquanchangjing"
+      - "aidate"
+      - "aiexreminder"
+      - "aiexmodel"
+      - "aics"
+      - "new"
+      - "ailetterid"
+      - "aiytofull"
+      - "定制意图"
+  #      - "test"
+
+  - file: "fengchao.xlsx"
+    env: "beta"
+    run: True
+    sheetnames:
+      - "Sheet1"
+  - file: "taicangnuoche.xlsx"
+    env: "alpha"
+    run: True
+    sheetnames:
+#      - "number"
+#      - "carnumber"
+      - "entity"
+#      - "aifactor"
+#      - "aics"
+  - file: "debangwaihu_nlu.xlsx"
+    env: "alpha"
+    run: True
+    sheetnames:
+      - "common"
+      - "new"
+#      - "test"
+  - file: "test.xlsx"
+    env: "dev"
+    run: True
+    sheetnames:
+      #      - "Sheet1"
+#      - "debang"
+      - "test"
+  - file: "yunpinlv_nlu.xlsx"
+    env: "alpha"
+    run: True
+    sheetnames:
+      - "刷单诈骗"
+#      - "test"

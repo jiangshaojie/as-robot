@@ -1,0 +1,616 @@
+{
+  "pid": "914006674",
+  "data": [
+    {
+      "name": "下单转人工",
+      "dialogue": [
+        {
+          "query": "false"
+        },
+        {
+          "query": "寄快递"
+        },
+        {
+          "query": "可以的"
+        },
+        {
+          "query": "几本书"
+        },
+        {
+          "query": "转人工"
+        },
+        {
+          "query": "0",
+          "command": "2"
+        }
+      ],
+      "callrecordexpect": {
+        "serviceType": "1/15/9",
+        "normalEndIs": "2",
+        "recordingTime": 1,
+        "recordNum": "18553543156&4d679e58bd0611ea8c0270c94ee2fee8",
+        "interactions": "【S】您好，德邦快递，请问有什么可以帮到您？/【P】寄快递/【S】现在下单，快递小哥明天才能联系您接货，您看可以吗？/【P】可以的/【S】下单需要收集您的信息，请问您邮寄的是什么物品呢？/【P】几本书/【S】好的，具体承运情况以快递小哥验收为准。 请问您是哪个城市哪个区县发货呢/【P】转人工",
+        "caller": "18553543156",
+        "sceneInfos": "[{\"sceneType\":\"1\",\"sceneResult\":\"${send_province}${send_city}${send_district}${send_road}\"},{\"sceneType\":\"15\",\"sceneResult\":\"${send_province}${send_city}${send_district}${send_road}\"},{\"sceneType\":\"9\",\"sceneResult\":\"\"}]",
+        "sceneCount": 3,
+        "isArtificial": "1",
+        "repeatCallIs": 0,
+        "callEndType": "3",
+        "startTime": 1593764535000,
+        "endTime": 1593764536000,
+        "channelSource": "SBC",
+        "funName": "sync_data"
+      }
+    },
+    {
+      "name": "下单成功",
+      "dialogue": [
+        {
+          "query": "false"
+        },
+        {
+          "query": "寄快递"
+        },
+        {
+          "query": "可以的"
+        },
+        {
+          "query": "手机"
+        },
+        {
+          "query": "北京市海淀区维亚大厦"
+        },
+        {
+          "query": "是的"
+        },
+        {
+          "query": "没有超过"
+        },
+        {
+          "query": "刘"
+        },
+        {
+          "query": "能"
+        },
+        {
+          "query": "没有了"
+        },
+        {
+          "query": "0",
+          "command": "2"
+        }
+      ],
+      "callrecordexpect": {
+        "serviceType": "1",
+        "normalEndIs": "1",
+        "recordingTime": 3,
+        "custName": "刘",
+        "callNumHoneLocation": "济宁",
+        "recordNum": "18553702842&4e609494bd0611ea97ff70c94ee2fee8",
+        "interactions": "【S】您好，德邦快递，请问有什么可以帮到您？/【P】寄快递/【S】现在下单，快递小哥明天才能联系您接货，您看可以吗？/【P】可以的/【S】下单需要收集您的信息，请问您邮寄的是什么物品呢？/【P】手机/【S】您的物品需要原厂包装或打木架才可承运，具体需要快递小哥验收为准。 请问您是哪个城市哪个区县发货呢/【P】北京市海淀区维亚大厦/【S】跟您确认下，您的地址是北京市、海淀区、维亚大厦，对吗？/【P】是的/【S】好的，具体承运情况以快递小哥验收为准。请问东西总重量有没有超过3公斤呢？/【P】没有超过/【S】好的，请问您贵姓？/【P】刘/【S】请问尾号5465这个号码可以联系到您么？/【P】能/【S】那我现在就为您安排下单了，快递员明天上班后与会尽快您联系，请您注意来电。请问还有其他什么可以帮您？/【P】没有了/【S】好的，感谢您的来电，再见。",
+        "caller": "18553702842",
+        "sceneInfos": "[{\"sceneType\":\"1\",\"sceneResult\":\"北京北京市海淀区维亚大厦\"}]",
+        "sceneCount": 1,
+        "isArtificial": "2",
+        "repeatCallIs": 0,
+        "callEndType": "2",
+        "startTime": 1593764537000,
+        "endTime": 1593764540000,
+        "channelSource": "SBC",
+        "funName": "sync_data"
+      }
+    },
+    {
+      "name": "价格咨询转人工",
+      "dialogue": [
+        {
+          "query": "false"
+        },
+        {
+          "query": "咨询价格"
+        },
+        {
+          "query": "北京市昌平区"
+        },
+        {
+          "query": "转人工"
+        },
+        {
+          "query": "0",
+          "command": "2"
+        }
+      ],
+      "callrecordexpect": {
+        "serviceType": "2/9",
+        "normalEndIs": "2",
+        "recordingTime": 1,
+        "recordNum": "18554065406&507db086bd0611eaa91370c94ee2fee8",
+        "interactions": "【S】您好，德邦快递，请问有什么可以帮到您？/【P】咨询价格/【S】好的，请问您是从哪个城市哪个区发货呢？/【P】北京市昌平区/【S】请问您是发往哪个市哪个区呢？/【P】转人工",
+        "caller": "18554065406",
+        "sceneInfos": "[{\"sceneType\":\"2\",\"sceneResult\":\"北京市昌平区-${recive_city}${recive_district}，${weight}公斤，${goods_volume}立方米\"},{\"sceneType\":\"9\",\"sceneResult\":\"\"}]",
+        "sceneCount": 2,
+        "isArtificial": "1",
+        "repeatCallIs": 0,
+        "callEndType": "3",
+        "startTime": 1593764540000,
+        "endTime": 1593764541000,
+        "channelSource": "SBC",
+        "funName": "sync_data"
+      }
+    },
+    {
+      "name": "价格咨询",
+      "dialogue": [
+        {
+          "query": "false"
+        },
+        {
+          "query": "咨询价格"
+        },
+        {
+          "query": "北京市昌平区"
+        },
+        {
+          "query": "北京市海淀区"
+        },
+        {
+          "query": "三十公斤"
+        },
+        {
+          "query": "三立方米"
+        },
+        {
+          "query": "不用了"
+        },
+        {
+          "query": "没有了，谢谢"
+        },
+        {
+          "query": "0",
+          "command": "2"
+        }
+      ],
+      "callrecordexpect": {
+        "serviceType": "2",
+        "normalEndIs": "1",
+        "recordingTime": 2,
+        "callNumHoneLocation": "泰安",
+        "recordNum": "18554196046&5147cb86bd0611eaa31770c94ee2fee8",
+        "interactions": "【S】您好，德邦快递，请问有什么可以帮到您？/【P】咨询价格/【S】好的，请问您是从哪个城市哪个区发货呢？/【P】北京市昌平区/【S】请问您是发往哪个市哪个区呢？/【P】北京市海淀区/【S】请问，你的货物大概有多少公斤呢？/【P】三十公斤/【S】请问您邮寄的物品，体积是多少立方米？/【P】三立方米/【S】初步帮您算了一下，根据您提供的货物重量30公斤、体积3.0立方，包接货不送货参考价661.0元，实际以网点开单走货为准。现在为您下单，让快递员上门取件可以吗/【P】不用了/【S】好的，请问还有其它什么可以帮您？/【P】没有了，谢谢/【S】好的，感谢您的来电，再见。",
+        "caller": "18554196046",
+        "sceneInfos": "[{\"sceneType\":\"2\",\"sceneResult\":\"北京市昌平区-北京市海淀区，30公斤，3.0立方米\"}]",
+        "sceneCount": 1,
+        "isArtificial": "2",
+        "repeatCallIs": 0,
+        "callEndType": "2",
+        "startTime": 1593764542000,
+        "endTime": 1593764544000,
+        "channelSource": "SBC",
+        "funName": "sync_data"
+      }
+    },
+    {
+      "name": "查件转人工",
+      "dialogue": [
+        {
+          "query": "false"
+        },
+        {
+          "query": "查件"
+        },
+        {
+          "query": "转人工"
+        },
+        {
+          "query": "0",
+          "command": "2"
+        }
+      ],
+      "callrecordexpect": {
+        "serviceType": "3/9",
+        "normalEndIs": "2",
+        "recordingTime": 1,
+        "recordNum": "18554452658&52cfcdfabd0611eaa42c70c94ee2fee8",
+        "interactions": "【S】您好，德邦快递，请问有什么可以帮到您？/【P】查件/【S】请用普通话说一下您的运单号的数字部分。/【P】转人工",
+        "caller": "18554452658",
+        "sceneInfos": "[{\"sceneType\":\"3\",\"sceneResult\":\"${query_track_wayBillNo}\"},{\"sceneType\":\"9\",\"sceneResult\":\"\"}]",
+        "sceneCount": 2,
+        "isArtificial": "1",
+        "repeatCallIs": 0,
+        "callEndType": "3",
+        "startTime": 1593764544000,
+        "endTime": 1593764545000,
+        "channelSource": "SBC",
+        "funName": "sync_data"
+      }
+    },
+    {
+      "name": "网点咨询发货转人工",
+      "dialogue": [
+        {
+          "query": "false"
+        },
+        {
+          "query": "网点咨询"
+        },
+        {
+          "query": "发货"
+        },
+        {
+          "query": "转人工"
+        },
+        {
+          "query": "0",
+          "command": "2"
+        }
+      ],
+      "callrecordexpect": {
+        "serviceType": "4/14/9",
+        "normalEndIs": "2",
+        "recordingTime": 1,
+        "recordNum": "18554561206&5382719cbd0611eab00470c94ee2fee8",
+        "interactions": "【S】您好，德邦快递，请问有什么可以帮到您？/【P】网点咨询/【S】好的，请问您是发货还是提货？/【P】发货/【S】请问您是哪个城市哪个区县发货呢/【P】转人工",
+        "caller": "18554561206",
+        "sceneInfos": "[{\"sceneType\":\"4\",\"sceneResult\":\"${send_province}${send_city}${send_district}${send_road}\"},{\"sceneType\":\"14\",\"sceneResult\":\"${send_province}${send_city}${send_district}${send_road}\"},{\"sceneType\":\"9\",\"sceneResult\":\"\"}]",
+        "sceneCount": 3,
+        "isArtificial": "1",
+        "repeatCallIs": 0,
+        "callEndType": "3",
+        "startTime": 1593764545000,
+        "endTime": 1593764546000,
+        "channelSource": "SBC",
+        "funName": "sync_data"
+      }
+    },
+    {
+      "name": "网点咨询提货转人工",
+      "dialogue": [
+        {
+          "query": "false"
+        },
+        {
+          "query": "网点咨询"
+        },
+        {
+          "query": "提货"
+        },
+        {
+          "query": "转人工"
+        },
+        {
+          "query": "0",
+          "command": "2"
+        }
+      ],
+      "callrecordexpect": {
+        "serviceType": "4/11/9",
+        "normalEndIs": "2",
+        "recordingTime": 1,
+        "recordNum": "18554711129&5462c5debd0611ea812b70c94ee2fee8",
+        "interactions": "【S】您好，德邦快递，请问有什么可以帮到您？/【P】网点咨询/【S】好的，请问您是发货还是提货？/【P】提货/【S】请用普通话说一下您的运单号的数字部分。/【P】转人工",
+        "caller": "18554711129",
+        "sceneInfos": "[{\"sceneType\":\"4\",\"sceneResult\":\"${send_province}${send_city}${send_district}${send_road}\"},{\"sceneType\":\"11\",\"sceneResult\":\"${query_track_wayBillNo}\"},{\"sceneType\":\"9\",\"sceneResult\":\"\"}]",
+        "sceneCount": 3,
+        "isArtificial": "1",
+        "repeatCallIs": 0,
+        "callEndType": "3",
+        "startTime": 1593764547000,
+        "endTime": 1593764548000,
+        "channelSource": "SBC",
+        "funName": "sync_data"
+      }
+    },
+    {
+      "name": "投诉",
+      "dialogue": [
+        {
+          "query": "false"
+        },
+        {
+          "query": "投诉"
+        },
+        {
+          "query": "0",
+          "command": "2"
+        }
+      ],
+      "callrecordexpect": {
+        "serviceType": "5",
+        "normalEndIs": "2",
+        "recordingTime": 0,
+        "recordNum": "18554859423&55357daebd0611ea88a170c94ee2fee8",
+        "interactions": "【S】您好，德邦快递，请问有什么可以帮到您？/【P】投诉",
+        "caller": "18554859423",
+        "sceneInfos": "[{\"sceneType\":\"5\",\"sceneResult\":\"\"}]",
+        "sceneCount": 1,
+        "isArtificial": "1",
+        "repeatCallIs": 0,
+        "callEndType": "3",
+        "startTime": 1593764548000,
+        "endTime": 1593764548191,
+        "channelSource": "SBC",
+        "funName": "sync_data"
+      }
+    },
+    {
+      "name": "国际",
+      "dialogue": [
+        {
+          "query": "false"
+        },
+        {
+          "query": "美国可以寄吗"
+        },
+        {
+          "query": "0",
+          "command": "2"
+        }
+      ],
+      "callrecordexpect": {
+        "serviceType": "6",
+        "normalEndIs": "2",
+        "recordingTime": 0,
+        "recordNum": "18554936294&55aecc78bd0611eaba3a70c94ee2fee8",
+        "interactions": "【S】您好，德邦快递，请问有什么可以帮到您？/【P】美国可以寄吗",
+        "caller": "18554936294",
+        "sceneInfos": "[{\"sceneType\":\"6\",\"sceneResult\":\"\"}]",
+        "sceneCount": 1,
+        "isArtificial": "1",
+        "repeatCallIs": 0,
+        "callEndType": "3",
+        "startTime": 1593764549000,
+        "endTime": 1593764548986,
+        "channelSource": "SBC",
+        "funName": "sync_data"
+      }
+    },
+    {
+      "name": "理赔",
+      "dialogue": [
+        {
+          "query": "false"
+        },
+        {
+          "query": "我要赔偿"
+        },
+        {
+          "query": "0",
+          "command": "2"
+        }
+      ],
+      "callrecordexpect": {
+        "serviceType": "7",
+        "normalEndIs": "2",
+        "recordingTime": 0,
+        "recordNum": "18555014805&56286908bd0611eaa56970c94ee2fee8",
+        "interactions": "【S】您好，德邦快递，请问有什么可以帮到您？/【P】我要赔偿",
+        "caller": "18555014805",
+        "sceneInfos": "[{\"sceneType\":\"7\",\"sceneResult\":\"\"}]",
+        "sceneCount": 1,
+        "isArtificial": "1",
+        "repeatCallIs": 0,
+        "callEndType": "3",
+        "startTime": 1593764550000,
+        "endTime": 1593764549791,
+        "channelSource": "SBC",
+        "funName": "sync_data"
+      }
+    },
+    {
+      "name": "开发票",
+      "dialogue": [
+        {
+          "query": "false"
+        },
+        {
+          "query": "开发票"
+        },
+        {
+          "query": "0",
+          "command": "2"
+        }
+      ],
+      "callrecordexpect": {
+        "serviceType": "16",
+        "normalEndIs": "2",
+        "recordingTime": 0,
+        "callNumHoneLocation": "黄山",
+        "recordNum": "18555095680&56a54448bd0611eab06370c94ee2fee8",
+        "interactions": "【S】您好，德邦快递，请问有什么可以帮到您？/【P】开发票/【S】您好，我司目前可开具6%的增值税发票，您可关注德邦快递微信公众号，在线申请更便捷，请问还有什么可以帮您？",
+        "caller": "18555095680",
+        "sceneInfos": "[{\"sceneType\":\"16\",\"sceneResult\":\"\"}]",
+        "sceneCount": 1,
+        "isArtificial": "2",
+        "repeatCallIs": 0,
+        "callEndType": "1",
+        "startTime": 1593764551000,
+        "endTime": 1593764550845,
+        "channelSource": "SBC",
+        "funName": "sync_data"
+      }
+    },
+    {
+      "name": "违禁物品",
+      "dialogue": [
+        {
+          "query": "false"
+        },
+        {
+          "query": "墙纸可以寄吗"
+        },
+        {
+          "query": "0",
+          "command": "2"
+        }
+      ],
+      "callrecordexpect": {
+        "serviceType": "17",
+        "normalEndIs": "2",
+        "recordingTime": 1,
+        "callNumHoneLocation": "马鞍山",
+        "recordNum": "18555173532&57220252bd0611ea894770c94ee2fee8",
+        "interactions": "【S】您好，德邦快递，请问有什么可以帮到您？/【P】墙纸可以寄吗/【S】您的物品需有安全包装才可收运，具体需以快递小哥验视为准，请问，现在要帮您下单吗？",
+        "caller": "18555173532",
+        "sceneInfos": "[{\"sceneType\":\"17\",\"sceneResult\":\"墙纸\"}]",
+        "sceneCount": 1,
+        "isArtificial": "2",
+        "repeatCallIs": 0,
+        "callEndType": "1",
+        "startTime": 1593764551000,
+        "endTime": 1593764552000,
+        "channelSource": "SBC",
+        "funName": "sync_data"
+      }
+    },
+    {
+      "name": "代收货款",
+      "dialogue": [
+        {
+          "query": "false"
+        },
+        {
+          "query": "代收货款"
+        },
+        {
+          "query": "0",
+          "command": "2"
+        }
+      ],
+      "callrecordexpect": {
+        "serviceType": "19",
+        "normalEndIs": "2",
+        "recordingTime": 1,
+        "callNumHoneLocation": "宣城",
+        "recordNum": "18555253425&57a0abe2bd0611eab99570c94ee2fee8",
+        "interactions": "【S】您好，德邦快递，请问有什么可以帮到您？/【P】代收货款/【S】您好，我司代收货款分为即日退和三日退两种，收费标准5-600元不等，具体可咨询快递小哥，请问现在要为您下单吗？",
+        "caller": "18555253425",
+        "sceneInfos": "[{\"sceneType\":\"19\",\"sceneResult\":\"\"}]",
+        "sceneCount": 1,
+        "isArtificial": "2",
+        "repeatCallIs": 0,
+        "callEndType": "1",
+        "startTime": 1593764552000,
+        "endTime": 1593764553000,
+        "channelSource": "SBC",
+        "funName": "sync_data"
+      }
+    },
+    {
+      "name": "修改运单信息",
+      "dialogue": [
+        {
+          "query": "false"
+        },
+        {
+          "query": "修改运单信息"
+        },
+        {
+          "query": "0",
+          "command": "2"
+        }
+      ],
+      "callrecordexpect": {
+        "serviceType": "20",
+        "normalEndIs": "2",
+        "recordingTime": 1,
+        "callNumHoneLocation": "芜湖",
+        "recordNum": "18555333468&58152f94bd0611ea82c370c94ee2fee8",
+        "interactions": "【S】您好，德邦快递，请问有什么可以帮到您？/【P】修改运单信息/【S】抱歉，因更改需核对信息，涉及客户隐私，我这边暂时无法直接帮您更改，您可联系发货网点更改，或登陆德邦快递微信公众号，自助更改更便捷。请问还有什么可以帮您？",
+        "caller": "18555333468",
+        "sceneInfos": "[{\"sceneType\":\"20\",\"sceneResult\":\"\"}]",
+        "sceneCount": 1,
+        "isArtificial": "2",
+        "repeatCallIs": 0,
+        "callEndType": "1",
+        "startTime": 1593764553000,
+        "endTime": 1593764554000,
+        "channelSource": "SBC",
+        "funName": "sync_data"
+      }
+    },
+    {
+      "name": "能否包装",
+      "dialogue": [
+        {
+          "query": "false"
+        },
+        {
+          "query": "能否包装"
+        },
+        {
+          "query": "0",
+          "command": "2"
+        }
+      ],
+      "callrecordexpect": {
+        "serviceType": "18",
+        "normalEndIs": "2",
+        "recordingTime": 0,
+        "callNumHoneLocation": "合肥",
+        "recordNum": "18555415643&588be1a4bd0611ea948970c94ee2fee8",
+        "interactions": "【S】您好，德邦快递，请问有什么可以帮到您？/【P】能否包装/【S】您好，我司提供纸箱、纤袋、打木架等包装，纸箱单价5-15元不等，纤袋单价2-18元不等，具体包装收费需和快递小哥确认，请问现在要为您下单吗？",
+        "caller": "18555415643",
+        "sceneInfos": "[{\"sceneType\":\"18\",\"sceneResult\":\"\"}]",
+        "sceneCount": 1,
+        "isArtificial": "2",
+        "repeatCallIs": 0,
+        "callEndType": "1",
+        "startTime": 1593764554000,
+        "endTime": 1593764553965,
+        "channelSource": "SBC",
+        "funName": "sync_data"
+      }
+    },
+    {
+      "name": "下单",
+      "dialogue": [
+        {
+          "query": "false"
+        },
+        {
+          "query": "下单"
+        },
+        {
+          "query": "可以的"
+        },
+        {
+          "query": "书"
+        },
+        {
+          "query": "能否包装"
+        },
+        {
+          "query": "北京市海淀区维亚大厦"
+        },
+        {
+          "query": "是的"
+        },
+        {
+          "query": "没有"
+        },
+        {
+          "query": "0",
+          "command": "2"
+        }
+      ],
+      "callrecordexpect": {
+        "serviceType": "1/15/18",
+        "normalEndIs": "2",
+        "recordingTime": 3,
+        "callNumHoneLocation": "宿州",
+        "recordNum": "18555487135&58fdead2bd0611ea80ff70c94ee2fee8",
+        "interactions": "【S】您好，德邦快递，请问有什么可以帮到您？/【P】下单/【S】现在下单，快递小哥明天才能联系您接货，您看可以吗？/【P】可以的/【S】下单需要收集您的信息，请问您邮寄的是什么物品呢？/【P】书/【S】好的，具体承运情况以快递小哥验收为准。 请问您是哪个城市哪个区县发货呢/【P】能否包装/【S】您好，我司提供纸箱、纤袋、打木架等包装，纸箱单价5-15元不等，纤袋单价2-18元不等，具体包装收费需和快递小哥确认， 请问您是哪个城市哪个区县发货呢/【P】北京市海淀区维亚大厦/【S】跟您确认下，您的地址是北京市、海淀区、维亚大厦，对吗？/【P】是的/【S】好的，具体承运情况以快递小哥验收为准。请问东西总重量有没有超过3公斤呢？/【P】没有/【S】好的，请问您贵姓？",
+        "caller": "18555487135",
+        "sceneInfos": "[{\"sceneType\":\"1\",\"sceneResult\":\"北京北京市海淀区维亚大厦\"},{\"sceneType\":\"15\",\"sceneResult\":\"北京北京市海淀区维亚大厦\"},{\"sceneType\":\"18\",\"sceneResult\":\"\"}]",
+        "sceneCount": 3,
+        "isArtificial": "2",
+        "repeatCallIs": 0,
+        "callEndType": "1",
+        "startTime": 1593764554000,
+        "endTime": 1593764557000,
+        "channelSource": "SBC",
+        "funName": "sync_data"
+      }
+    }
+  ]
+}
